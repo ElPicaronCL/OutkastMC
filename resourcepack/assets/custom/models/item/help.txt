@@ -1,0 +1,40 @@
+====================================
+
+There are two types of items:
+- Handheld      (tool/weapon)
+- Generated     (item/material)
+
+____________________________________
+Examples:
+
+_____________________________________________
+| Use this for creating tools and weapons   |
++-------------------------------------------+
+| {                                         |
+|     "parent": "minecraft:item/handheld",  |
+|     "textures": {                         |
+|         "layer0": "custom:item/sword"     |
+|     }                                     |
+| }                                         |
++-------------------------------------------+
+| ^ this will make player hold the sword    |
+|   as an actualy sword                     |
+|___________________________________________|
+
+
+_____________________________________________
+| Use this for creating normal items        |
++-------------------------------------------+
+| {                                         |
+|     "parent": "minecraft:item/generated", |
+|     "textures": {                         |
+|         "layer0": "custom:item/sword"     |
+|     }                                     |
+| }                                         |
++-------------------------------------------+
+| ^ this will make player hold the sword    |
+|   as a normal item, like a gold ingot     |
+|___________________________________________|
+
+
+====================================

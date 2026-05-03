@@ -1,0 +1,11 @@
+====================================
+
+"icons" folder is our custom folder to put
+our custom emojis
+
+"item" folder is minecraft's default folder
+for "items" where any item texture placed
+there with its correct name, will replace
+the original texture
+
+====================================

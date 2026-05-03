@@ -1,0 +1,63 @@
+{
+  "pack": {
+    "pack_format": 46,
+    "supported_formats": [
+      46,
+      55
+    ],
+    "description": [
+      {
+        "text": "Example ",
+        "color": "#5555FF",
+        "bold": true,
+        "obfuscated": false
+      },
+      {
+        "text": "Texture Pack",
+        "color": "yellow",
+        "bold": true,
+        "obfuscated": false
+      },
+
+
+
+      {
+        "text": "\n",
+        "obfuscated": false
+      },
+
+
+
+      {
+        "text": "➥",
+        "color": "dark_gray",
+        "bold": true,
+        "obfuscated": false
+      },
+      {
+        "text": " ʙʏ: ",
+        "color": "dark_gray",
+        "bold": false,
+        "obfuscated": false
+      },
+      {
+        "text": "u4x3s3a",
+        "color": "#AAAAAA",
+        "bold": false,
+        "obfuscated": false
+      },
+      {
+        "text": " - ",
+        "color": "dark_gray",
+        "bold": true,
+        "obfuscated": false
+      },
+      {
+        "text": "ᴠ1.0",
+        "color": "gray",
+        "bold": false,
+        "obfuscated": false
+      }
+    ]
+  }
+}

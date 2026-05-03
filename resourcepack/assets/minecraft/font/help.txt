@@ -1,0 +1,29 @@
+====================================
+
+Making custom emojis is tricky...
+Any mistake here makes the pack unloadable :(
+
+{
+    "type": "bitmap",
+    "file": "minecraft:icons/books/greenbook.png",
+    "ascent": 8,
+    "height": 9,
+    "chars": ["\uEF00"]
+},
+
+type:   dont change this
+file:   directory to your emoji
+ascent: height of the emoji
+height: size of the emoji
+chars:  the unicode code to use the emoji
+
+To create a unicode, use: https://unicodeplus.com/
+Enter a code like "EF00" and copy the unicode: 
+
+---
+
+Warning:
+- Missing texture, syntax error, or wrong ascent or
+  height will break the texture pack (wont load)
+
+====================================

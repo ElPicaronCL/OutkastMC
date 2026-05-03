@@ -1,0 +1,64 @@
+====================================
+
+Minecraft Textures: (replace "paper" with item of your choice)
+  Pig Icon:         /give @p minecraft:paper[minecraft:item_model="custom:pig"]
+  Cow Icon:         /give @p minecraft:paper[minecraft:item_model="custom:cow"]
+ Sword Item:        /give @p minecraft:paper[minecraft:item_model="custom:sword_item"]
+Sword Weapon:       /give @p minecraft:paper[minecraft:item_model="custom:sword_weapon"]
+
+Minecraft Icons: (copy and paste the unicode into chat)
+  Recipe Book:      
+Brewing Stand S:    
+Brewing Stand L:    
+   Gold Ingot:      
+
+====================================
+
+Texture Pack Directory:
+ExampleTexturePack                 # Pack's folder
+┃
+┣╺ assets                          # Folder containing all textures
+┃  ┃
+┃  ┃
+┃  ┣╺ custom                       # Folder for our custom texture models
+┃  ┃  ┃
+┃  ┃  ┣╺ items                     # Folder to show where the texture is
+┃  ┃  ┃  ┣╺ cow.json               | Custom Cow Item
+┃  ┃  ┃  ┣╺ pig.json               | Custom Pig Item
+┃  ┃  ┃  ┣╺ sword_item.json        | Custom Sword Item
+┃  ┃  ┃  ┗╺ sword_weapon.json      | Custom Sword Weapon
+┃  ┃  ┃
+┃  ┃  ┣╺ models                    # Folder to edit the feature of the model
+┃  ┃  ┃  ┗╺ item                   - 
+┃  ┃  ┃     ┣╺ cow.json            | cow Item is a "material" item
+┃  ┃  ┃     ┣╺ pig.json            | pig Item is a "material" item
+┃  ┃  ┃     ┣╺ sword_item.json     | sword_item is a "material" item
+┃  ┃  ┃     ┗╺ sword_weapon.json   | sword_weapon is a "tool" item
+┃  ┃  ┃
+┃  ┃  ┗╺ textures                  # Folder for the item textures
+┃  ┃     ┗╺ item                   - 
+┃  ┃        ┣╺ cow.png             | Cow Item Texture
+┃  ┃        ┣╺ pig.png             | Pig Item Texture
+┃  ┃        ┗╺ sword.png           | Sword Item Texture
+┃  ┃
+┃  ┃
+┃  ┗╺ minecraft                    # Folder to change minecraft core textures
+┃     ┃
+┃     ┣╺ font                      # Folder to add custom emojis
+┃     ┃  ┗╺ default.json           | Emoji list file
+┃     ┃
+┃     ┗╺ textures                  # Folder containing minecraft core textures
+┃        ┃
+┃        ┣╺ icons                  # Custom created folder to add your textures
+┃        ┃  ┣╺ books               - 
+┃        ┃  ┃  ┗╺ greenbook.png    | Recipe Book Emoji under "books" folder
+┃        ┃  ┗╺ alchemy.png         | Alchemy Emoji
+┃        ┃
+┃        ┗╺ item                   # Folder for changing core "item" textures
+┃           ┗╺ gold_nugget.png     | Replacing minecraft's core "Gold Nugget"
+┃
+┃
+┣╺ pack.mcmeta                     | Pack's format, and description
+┗╺ pack.png                        | Pack's image
+
+====================================

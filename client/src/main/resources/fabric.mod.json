@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mcengine",
+  "version": "0.1.0",
+  "name": "OutkastMC",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["org.projectoutkast.outkastmc.OutkastMC"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,27 @@
+{
+   "vp.idle":{
+      "sounds":[
+         "vp:vehicles/idle"
+      ]
+   },
+   "vp.start":{
+      "sounds":[
+         "vp:vehicles/start"
+      ]
+   },
+   "vp.accelerate":{
+      "sounds":[
+         "vp:vehicles/accelerate"
+      ]
+   },
+   "vp.driving":{
+      "sounds":[
+         "vp:vehicles/driving"
+      ]
+   },
+   "vp.slowingdown":{
+      "sounds":[
+         "vp:vehicles/slowingdown"
+      ]
+   }
+}

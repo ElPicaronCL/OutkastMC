@@ -1,0 +1,42 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:icons/books/greenbook.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["\uEF00"]
+        },
+
+        
+
+        {
+            "type": "bitmap",
+            "file": "minecraft:icons/alchemy.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["\uEF01"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:icons/alchemy.png",
+            "ascent": 17,
+            "height": 20,
+            "chars": ["\uEF02"]
+        },
+
+
+
+        {
+            "type": "bitmap",
+            "file": "minecraft:item/gold_nugget.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uEF03"]
+        }
+    ]
+}
+
+
+
+
