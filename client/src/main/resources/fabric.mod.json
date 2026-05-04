@@ -6,13 +6,13 @@
   "environment": "client",
 	"entrypoints": {
 		"main": [
-			"org.projectoutkast.outkastmc.OutkastMCMain"
+			"org.projectoutkast.outkastmc.OutkastMCClient"
 		],
 		"fabric-datagen": [
 			"org.projectoutkast.outkastmc.OutkastMCDataGenerator"
 		],
 		"client": [
-			"org.projectoutkast.outkastmc.OutkastMCMainClient"
+			"org.projectoutkast.outkastmc.OutkastMCClient"
 		]
 	},
 	"mixins": [
