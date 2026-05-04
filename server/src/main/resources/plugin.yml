@@ -1,4 +1,7 @@
 name: OutkastMC
 main: org.projectoutkast.outkastmc.OutkastMC
 version: 0.1.0
-api-version: 1.21
+description: An example plugin
+author: ElPicaronCL - Sebastian Tapia
+website: https://digitalxpstudios.cc
+api-version: '1.21.11'
