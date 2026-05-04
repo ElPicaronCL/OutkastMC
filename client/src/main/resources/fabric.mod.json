@@ -1,12 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "mcengine",
+  "id": "outkastmc",
   "version": "0.1.0",
   "name": "OutkastMC",
   "environment": "client",
-  "entrypoints": {
-    "main": ["org.projectoutkast.outkastmc.OutkastMC"]
-  },
+	"entrypoints": {
+		"main": [
+			"org.projectoutkast.outkastmc.OutkastMCMain"
+		],
+		"fabric-datagen": [
+			"org.projectoutkast.outkastmc.OutkastMCDataGenerator"
+		],
+		"client": [
+			"org.projectoutkast.outkastmc.OutkastMCMainClient"
+		]
+	},
+	"mixins": [
+		"outkastmc.mixins.json"
+	],
   "depends": {
     "fabricloader": ">=0.16.0",
     "minecraft": "1.21.11",

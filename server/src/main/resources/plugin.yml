@@ -1,7 +1,7 @@
 name: OutkastMC
-main: org.projectoutkast.outkastmc.OutkastMC
+main: org.projectoutkast.outkastmc.OutkastMCMain
 version: 0.1.0
-description: An example plugin
+description: Server-Side logic for the Project Outkast Minecraft Server.
 author: ElPicaronCL - Sebastian Tapia
 website: https://digitalxpstudios.cc
 api-version: '1.21.11'
