@@ -26,15 +26,21 @@ jobs:
 
       - name: Build project
         run: ./gradlew build
-
+      - name: Debug - list files
+        run: |
+          echo "=== SERVER ==="
+          ls -R server/build || true
+          echo "=== CLIENT ==="
+          ls -R client/build || true
+    
       - name: Upload server plugin
         uses: actions/upload-artifact@v4
         with:
-          name: server-plugin
-          path: server-plugin/build/libs/*.jar
+          name: server
+          path: server/build/libs/*.jar
 
       - name: Upload client mod
         uses: actions/upload-artifact@v4
         with:
-          name: client-fabric
-          path: client-fabric/build/libs/*.jar
+          name: client
+          path: client/build/libs/*.jar
