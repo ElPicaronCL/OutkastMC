@@ -1,7 +1,7 @@
 
-# OutkastMC
+# DigitalXPMC
 
-This repo contains all the code and resources/assets for the Project Outkast Minecraft Server
+This repo contains all the code and resources/assets for the DigitalXP Minecraft Server
 
 
 ## Consisting of:
